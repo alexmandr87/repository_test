@@ -21,4 +21,4 @@ for file in "$pathcheck"/*
         md5sum "$file" >> "$name_file"
     fi
   done
-
+echo "Done"
